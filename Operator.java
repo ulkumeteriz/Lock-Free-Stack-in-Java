@@ -8,7 +8,7 @@ public class Operator extends Thread {
 		int n = rand.nextInt(50);
 		int s = rand.nextInt(500) + 500;
 		
-		while(true)
+		while(cont)
 		{
 			if(n%2 == 0)
 			{
@@ -40,9 +40,12 @@ public class Operator extends Thread {
 	public Operator(Stack<Integer> s)
 	{
 		stack = s;
+		cont = true;
 		this.start();
 	}
 	
 	public Stack<Integer> stack;
+	boolean cont;
 	
 }
+
