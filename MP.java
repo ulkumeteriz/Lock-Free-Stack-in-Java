@@ -16,9 +16,8 @@ public class MP {
 		o1.cont = false;
 		o2.cont = false;
 		o3.cont = false;
-		o4.cont = false;
-
-		
+		o4.cont = false;	
 	}
 }
+
 

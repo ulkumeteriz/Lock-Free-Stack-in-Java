@@ -2,7 +2,6 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class Node<T>
 {
-
 	public Node()
 	{
 		element = null;
@@ -21,5 +20,6 @@ public class Node<T>
 	
 	public T element;
 	public AtomicReference<Node<T>> next;
-		
 }
+
+
