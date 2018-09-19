@@ -1,6 +1,6 @@
-###CAP6616 Homework Assignment 1
+#CAP6616 Homework Assignment 1
 
-In this homework, a lock-free stack is implemented using ==JAVA8==.
+In this homework, a lock-free stack is implemented using JAVA8.
 
 **To compile and run by using Makefile:**
 	
